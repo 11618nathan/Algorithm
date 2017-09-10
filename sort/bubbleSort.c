@@ -22,7 +22,7 @@ void bubbleSort(int DataSet[], int Length)
 }
 
 
-int main()
+int main(void)
 {
 	int DataSet[] = { 7, 6, 5, 4, 3, 2, 1 };
 	int Length = sizeof DataSet / sizeof DataSet[0];
@@ -34,7 +34,6 @@ int main()
 	{
 		printf("%d ", DataSet[i]);
 	}
-
 	printf("\n");
 
 	return 0;

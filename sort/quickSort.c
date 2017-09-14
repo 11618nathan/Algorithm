@@ -52,10 +52,12 @@ void QuickSort(int DataSet[], int Left, int Right)
 
 int main()
 {
-	int DataSet[] = { 7, 6, 5, 4, 3, 2, 1 };
+	int DataSet[] = { 1, 2, 5, 7, 6, 4, 3 };
 	int Length = sizeof DataSet / sizeof DataSet[0];
 
 	int i = 0;
+
+	QuickSort(DataSet, 0, Length - 1);
 
 	for ( i = 0; i < Length; i++)
 	{

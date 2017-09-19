@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void bubbleSort(int DataSet[], int Length)
+void BubbleSort(int DataSet[], int Length)
 {
 	int i = 0;
 	int j = 0;
@@ -28,7 +28,7 @@ int main(void)
 	int Length = sizeof DataSet / sizeof DataSet[0];
 	int i = 0;
 
-	bubbleSort(DataSet, Length);
+	BubbleSort(DataSet, Length);
 
 	for ( i = 0; i < Length; i++)
 	{

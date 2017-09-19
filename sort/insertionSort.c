@@ -4,7 +4,7 @@
 // memmove
 #include <string.h>
 
-void insertionSort(int DataSet[], int Length)
+void InsertionSort(int DataSet[], int Length)
 {
 	int i = 0;
 	int j = 0;
@@ -39,7 +39,7 @@ int main()
 	int Length = sizeof DataSet / sizeof DataSet[0];
 	int i = 0;
 
-	insertionSort(DataSet, Length);
+	InsertionSort(DataSet, Length);
 
 	for (i = 0; i < Length; i++)
 	{

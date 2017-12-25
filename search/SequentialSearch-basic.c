@@ -4,7 +4,7 @@
 void SequentialSearch(int a[], int n, int key)
 {
 	int i = 0;
-	printf("%d �˻�: \n", key);
+	printf("%d °Ë»ö: \n", key);
 
 	while (i < n && a[i] != key)
 	{
@@ -13,11 +13,11 @@ void SequentialSearch(int a[], int n, int key)
 
 	if (i<n)
 	{
-		printf("%d �˻�O \n", i + 1);
+		printf("%d °Ë»öO \n", i + 1);
 	}
 	else
 	{
-		printf("%d �˻�X \n", i + 1);
+		printf("%d °Ë»öX \n", i + 1);
 	}
 }
 

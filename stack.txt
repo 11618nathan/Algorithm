@@ -1,0 +1,5 @@
+
+스택
+처음에 들어간 것이 가장 마지막에 나오는 구조
+FILO(First In Last Out)
+LIFO(Last In, First Out)
